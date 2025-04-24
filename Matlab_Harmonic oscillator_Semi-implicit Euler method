@@ -1,6 +1,5 @@
-%Matlab code for simple harmonic oscillator using Semi-implicit Euler method
+%Matlab code for simple harmonic oscillator using Semi-implicit Euler method showing convergence
 %Showing also Hamiltonian vector flow
-%Convergence
 
 
 h = 0.01;          % Step size
