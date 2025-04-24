@@ -7,7 +7,7 @@ ${\dot {\eta }}=J\nabla _{\eta }H$
 
 The semi-implicit Euler method is a canonical transformation, i.e. it obays the invariance of the Poisson brackets and is governed by the Poisson bracket differential equation:
 
-$\dot\eta=\(\eta,H\)$ with $H$ being the Hamiltonian and $\(\cdot, \cdot \) being the Poisson brackets.
+$\dot\eta=\(\eta,H\)$ with $H$ being the Hamiltonian and $\(, \) being the Poisson brackets.
 
 Forward Euler method can still be applied to non-conservative systems because there the change (loss) of energy is physical. 
 
