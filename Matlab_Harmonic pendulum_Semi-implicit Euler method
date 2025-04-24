@@ -1,0 +1,44 @@
+
+
+
+h = 0.01;          % Step size
+x = 0:h:100;         % Time vector
+N = length(x);     % Number of steps
+
+% Initialize arrays
+y = zeros(1,N);    % Solution array
+v = zeros(1,N);    % First derivative array
+
+% Initial conditions
+y(1) = 0;          % y(0) = 1
+v(1) = 1;          % y'(0) = 0
+
+% Forward Euler loop
+for i = 1:N-1
+
+   
+    v(i+1) = v(i) - h * sin(y(i));              % Update v implicitly (using current y)
+    y(i+1) = y(i) + h * v(i+1);    
+
+
+end
+
+plot(x, y);
+
+%% Plot 2: Phase Portrait with Hamiltonian Flow
+figure(2);
+
+% Generate a grid for Hamiltonian contours
+y_grid = linspace(-pi, pi, 50);
+v_grid = linspace(-2, 2, 50);
+[Y, V] = meshgrid(y_grid, v_grid);
+H_grid = 0.5 * V.^2 - cos(Y);  % Hamiltonian on grid
+
+% Plot contours of H (energy levels)
+contour(Y, V, H_grid, 20, 'LineWidth', 0.5);
+hold on;
+
+% Plot the trajectory in phase space
+plot(y, v, 'r', 'LineWidth', 1.5);
+
+
