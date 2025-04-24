@@ -1,0 +1,64 @@
+#Semi-implicit Euler method for simple harmonic oscillator, shows convergence.
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Parameters
+h = 0.01           # Step size
+t_start = 0        # Start time
+t_end = 100        # End time
+x = np.arange(t_start, t_end + h, h)  # Time vector
+N = len(x)         # Number of steps
+
+# Initialize arrays
+y = np.zeros(N)    # Solution array (angle θ)
+v = np.zeros(N)    # Angular velocity (dθ/dt)
+
+# Initial conditions
+y[0] = 0           # y(0) = 0
+v[0] = 1           # y'(0) = 1
+
+# Forward Euler loop
+for i in range(N - 1):
+    v[i + 1] = v[i] - h * np.sin(y[i])
+    y[i + 1] = y[i] + h * v[i+1]          # Update y explicitly
+      # Update v explicitly
+
+      
+
+# Plot 1: Time evolution of y(t)
+plt.figure(figsize=(10, 5))
+plt.plot(x, y, 'b', linewidth=1.5)
+plt.xlabel('Time (t)')
+plt.ylabel('Angle (y)')
+plt.title('Time Evolution of y(t) (Forward Euler)')
+plt.grid(True)
+plt.show()
+
+# Plot 2: Phase Portrait with Hamiltonian Flow
+plt.figure(figsize=(8, 6))
+
+# Generate a grid for Hamiltonian contours
+y_grid = np.linspace(-np.pi, np.pi, 50)
+v_grid = np.linspace(-2, 2, 50)
+Y, V = np.meshgrid(y_grid, v_grid)
+H_grid = 0.5 * V**2 - np.cos(Y)  # Hamiltonian on grid
+
+# Plot contours of H (energy levels)
+contour = plt.contour(Y, V, H_grid, 20, colors='k', linewidths=0.5)
+plt.clabel(contour, inline=True, fontsize=8)
+
+# Plot the trajectory in phase space
+plt.plot(y, v, 'r', linewidth=1.5, label='Trajectory')
+
+# Mark initial and final points
+plt.plot(y[0], v[0], 'go', markersize=8, label='Start (t=0)')
+plt.plot(y[-1], v[-1], 'ro', markersize=8, label='End (t=100)')
+
+plt.xlabel('Angle (y)')
+plt.ylabel('Angular Velocity (v)')
+plt.title('Phase Portrait and Hamiltonian Flow')
+plt.colorbar(contour, label='Hamiltonian (H)')
+plt.legend()
+plt.grid(True)
+plt.show()
