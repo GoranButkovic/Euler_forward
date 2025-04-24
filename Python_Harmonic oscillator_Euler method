@@ -27,7 +27,7 @@ for i in range(N - 1):
 plt.figure(figsize=(10, 5))
 plt.plot(x, y, 'b', linewidth=1.5)
 plt.xlabel('Time (t)')
-plt.ylabel('Positon (y)')
+plt.ylabel('Position (y)')
 plt.title('Time Evolution of y(t) (Forward Euler)')
 plt.grid(True)
 plt.show()
