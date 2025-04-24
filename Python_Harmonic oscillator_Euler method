@@ -1,4 +1,4 @@
-$Euler forward method for simple harmonic oscillator, shows divergence.
+#Euler forward method for simple harmonic oscillator, shows divergence.
 
 import numpy as np
 import matplotlib.pyplot as plt
