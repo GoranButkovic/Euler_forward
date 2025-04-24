@@ -20,11 +20,10 @@ v[0] = 1           # y'(0) = 1
 
 # Forward Euler loop
 for i in range(N - 1):
-    v[i + 1] = v[i] - h * np.sin(y[i])
-    y[i + 1] = y[i] + h * v[i+1]          # Update y explicitly
-      # Update v explicitly
-
+    v[i + 1] = v[i] - h * np.sin(y[i])    # Update v explicitly
+    y[i + 1] = y[i] + h * v[i+1]          # Update y implicitly
       
+
 # Plot 1: Time evolution of y(t)
 plt.figure(figsize=(10, 5))
 plt.plot(x, y, 'b', linewidth=1.5)
