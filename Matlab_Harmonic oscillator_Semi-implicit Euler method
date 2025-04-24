@@ -16,7 +16,6 @@ v(1) = 1;          % y'(0) = 0
 % Forward Euler loop
 for i = 1:N-1
 
-   
     v(i+1) = v(i) - h * sin(y(i));              % Update v implicitly (using current y)
     y(i+1) = y(i) + h * v(i+1);                 % Update y
 
