@@ -12,7 +12,7 @@ N = len(x)         # Number of steps
 
 # Initialize arrays
 y = np.zeros(N)    # Solution array (angle θ)
-v = np.zeros(N)    # Angular velocity (dθ/dt)
+v = np.zeros(N)    # Velocity (dθ/dt)
 
 # Initial conditions
 y[0] = 0           # y(0) = 0
@@ -25,7 +25,6 @@ for i in range(N - 1):
       # Update v explicitly
 
       
-
 # Plot 1: Time evolution of y(t)
 plt.figure(figsize=(10, 5))
 plt.plot(x, y, 'b', linewidth=1.5)
