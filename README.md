@@ -11,5 +11,5 @@ $\dot\eta=\(\eta,H\)$
 
 with $H$ being the Hamiltonian and \(,\) being the Poisson brackets.
 
-Forward Euler method can still be applied to non-conservative systems because there the change (loss) of energy is physical. 
+Forward Euler method can still be applied to non-conservative systems because there the change of energy is physical. 
 
