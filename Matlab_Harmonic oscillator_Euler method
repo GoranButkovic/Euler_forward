@@ -23,7 +23,6 @@ end
 
 plot(x, y);
 
-
 %% Plot 2: Phase Portrait with Hamiltonian Flow
 figure(2);
 
