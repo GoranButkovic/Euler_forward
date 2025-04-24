@@ -3,7 +3,7 @@ Fixing this is done via the Semi-implicit Euler method which is a canonical tran
 
 The symplectic condition:
 
-$ {\dot {\eta }}=J\nabla _{\eta }H=J(M^{T}\nabla _{\varepsilon }H)}$
+${\dot {\eta }}=J\nabla _{\eta }H=J(M^{T}\nabla _{\varepsilon }H)}$
 
 the semi-implicit Euler method is a canonical transformation, i.e. it obays the invariance of the Poisson brackets and is governed by the Poisson bracket differential equation:
 
