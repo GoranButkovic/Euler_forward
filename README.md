@@ -3,11 +3,7 @@ Fixing this is done via the Semi-implicit Euler method which is a canonical tran
 
 The symplectic condition:
 
-${\dot {\eta }}=J\nabla _{\eta }H$, where $\eta = \begin{pmatrix} q \\ p \end{pmatrix}$ and $
-\Omega = \begin{bmatrix} 
-0 & I_n \\ 
--I_n & 0 
-\end{bmatrix}$  
+${\dot {\eta }}=J\nabla _{\eta }H$
 
 The semi-implicit Euler method is a canonical transformation, i.e. it obays the invariance of the Poisson brackets and is governed by the Poisson bracket differential equation:
 
