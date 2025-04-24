@@ -53,7 +53,7 @@ plt.plot(y[0], v[0], 'go', markersize=8, label='Start (t=0)')
 plt.plot(y[-1], v[-1], 'ro', markersize=8, label='End (t=100)')
 
 plt.xlabel('Position (y)')
-plt.ylabel('Angular Velocity (v)')
+plt.ylabel('Velocity (v)')
 plt.title('Phase Portrait and Hamiltonian Flow')
 plt.colorbar(contour, label='Hamiltonian (H)')
 plt.legend()
