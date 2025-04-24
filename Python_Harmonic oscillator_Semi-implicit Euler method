@@ -31,7 +31,7 @@ plt.figure(figsize=(10, 5))
 plt.plot(x, y, 'b', linewidth=1.5)
 plt.xlabel('Time (t)')
 plt.ylabel('Angle (y)')
-plt.title('Time Evolution of y(t) (Forward Euler)')
+plt.title('Time Evolution of y(t) (Semi-implicit Euler method)')
 plt.grid(True)
 plt.show()
 
