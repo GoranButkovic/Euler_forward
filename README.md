@@ -43,12 +43,10 @@ $J =
 \frac{\partial q'}{\partial q} & \frac{\partial q'}{\partial p} \\
 \frac{\partial p'}{\partial q} & \frac{\partial p'}{\partial p}
 \end{bmatrix} = 
-
 \begin{bmatrix}
 1 + h \frac{\partial^2 H}{\partial q \, \partial p} & h\frac{\partial^2 H}{\partial q \, \partial p}\\
  -h \frac{\partial^2 H}{\partial q \, \partial p} & 1-h\frac{\partial^2 H}{\partial q \, \partial p}
 \end{bmatrix}$
-
 
 $\det(J) = \left(1 + h^2 \frac{\partial^2 H}{\partial q \, \partial p}\right) \left(1-h \frac{\partial^2 H}{\partial q \, \partial p}\right)+h^2\left(\frac{\partial^2 H}{\partial q \, \partial p}\right)^2 = 1 - \left(h\frac{\partial^2 H}{\partial q \, \partial p}\right)^2 + h^2 \left(\frac{\partial^2 H}{\partial q \, \partial p}\right)^2 = 1$
 
