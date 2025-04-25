@@ -57,5 +57,6 @@ J = \begin{bmatrix}\frac{\partial q'}{\partial q} & \frac{\partial q'}{\partial 
 \frac{\partial p'}{\partial q} & \frac{\partial p'}{\partial p}\end{bmatrix} = \begin{bmatrix} 1 + h \frac{\partial^2 H}{\partial q \, \partial p} & h\frac{\partial^2 H}{\partial q \, \partial p}\\
  -h \frac{\partial^2 H}{\partial q \, \partial p} & 1-h\frac{\partial^2 H}{\partial q \, \partial p} \end{bmatrix}
 ```
-1 + h \frac{\partial^2 H}{\partial q \, \partial p} & h\frac{\partial^2 H}{\partial q \, \partial p}\\
- -h \frac{\partial^2 H}{\partial q \, \partial p} & 1-h\frac{\partial^2 H}{\partial q \, \partial p}
+$$det(J) = 1$$
+
+So, the **semi-implicit Euler method** is a **volume-preserving transformation** or a **measure-preserving map** because its Jacobian is equal to unity.
