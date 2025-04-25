@@ -40,7 +40,17 @@ $${\displaystyle {\frac {\mathrm {d} {\boldsymbol {q}}}{\mathrm {d} t}}={\frac {
 
 Takind the finite difference of the equations we get:
 
-$$\dot p  =- \frac{\partial H}{\partial q} \approx \frac{p_{n+1}-p_n}{h}\longrightarrow p_{n+1} = p_n - h \frac{\partial H}{\partial q}(q_n) <br> \dot q =  \frac{\partial H}{\partial p}(p_{n+1}) \approx \frac{q_{n+1}-q_n}{h}\longrightarrow q_{n+1} = q_n + h \frac{\partial H}{\partial p}(p_{n+1})$$
+$$
+\dot p  = - \frac{\partial H}{\partial q} \approx \frac{p_{n+1} - p_n}{h}
+\longrightarrow
+p_{n+1} = p_n - h \frac{\partial H}{\partial q}(q_n)
+$$
+
+$$
+\dot q = \frac{\partial H}{\partial p}(p_{n+1}) \approx \frac{q_{n+1} - q_n}{h}
+\longrightarrow
+q_{n+1} = q_n + h \frac{\partial H}{\partial p}(p_{n+1})
+$$
 
 
 
