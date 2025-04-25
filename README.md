@@ -52,8 +52,8 @@ $$
 q_{n+1} = q_n + h \frac{\partial H}{\partial p}(p_{n+1})
 $$
 
-```math
+$```math
 begin{bmatrix}X\\Y\end{bmatrix}
-```
+```$
 
 
