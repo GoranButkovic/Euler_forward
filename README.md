@@ -35,7 +35,7 @@ The **semi-implicit Euler method** preserves the phase space volume as required 
 
 $v_{i+1} = v_i - h y_i$ <br> $y_{i+1} = y_i + h v_{i+1}$
 
-$p_{n+1} = p_n - h \frac{\partial H}{\partial q}(q_n) $ <br> $q_{n+1} = q_n + h \frac{\partial H}{\partial p}(p_{n+1})$
+$p_{n+1} = p_n - h \frac{\partial H}{\partial q}(q_n)$ <br> $q_{n+1} = q_n + h \frac{\partial H}{\partial p}(p_{n+1})$
 
 
 $J = 
