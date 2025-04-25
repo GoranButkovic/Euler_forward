@@ -15,7 +15,7 @@ The semi-implicit Euler method is a canonical transformation, i.e. it obeys the 
 
 $$\dot\eta=\lbrace\eta,H\rbrace$$
 
-with $H$ being the Hamiltonian and \lbrace,\rbrace being the Poisson brackets.
+with $H$ being the Hamiltonian and $\lbrace,\rbrace$ being the Poisson brackets.
 
 Forward Euler method can still be applied to non-conservative systems because there the change of energy is physical. 
 
