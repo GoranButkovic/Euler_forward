@@ -19,6 +19,7 @@ where $\eta=\eta(q,p)$, $H$ is the Hamiltonian, $\lbrace,\rbrace$ being the Pois
 
 Forward Euler method can still be applied to non-conservative systems because there the change of energy is physical. 
 
+Table for comparison:
 
 | Method | Update Equations |
 |--------|------------------|
