@@ -1,6 +1,6 @@
 We are solving the ordinary differential equation for a simple harmonic oscillator 
 
-$$\frac{d^2y(t)}{dt^2}+y=0$$
+$$\ddot y+y=0$$
 
 using the forward Euler method.
 
