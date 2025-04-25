@@ -23,7 +23,6 @@ for i in range(N-1):
     v[i+1] = v[i] - h * y[i]         # % Update v implicitly (using current y)
     y[i+1] = y[i] + h * v[i+1]       # Update y
            
-
 # Create figure with subplots
 plt.figure(figsize=(10, 8))
 plt.clf()  # Clear current figure
