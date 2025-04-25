@@ -1,4 +1,4 @@
-We are solving the second-order ordinary differential equation for a simple harmonic oscillator:
+We are solving a second-order ordinary differential equation for a simple harmonic oscillator:
 
 $$\ddot y+y=0$$
 
