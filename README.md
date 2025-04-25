@@ -59,4 +59,4 @@ J = \begin{bmatrix}\frac{\partial q'}{\partial q} & \frac{\partial q'}{\partial 
 ```
 $$det(J) = 1$$
 
-The **semi-implicit Euler method** is a **volume-preserving transformation** or a **measure-preserving map** because its Jacobian is equal to unity.
+The **semi-implicit Euler method** is a **volume-preserving transformation** or a **measure-preserving map** since its **Jacobian** is equal to unity.
