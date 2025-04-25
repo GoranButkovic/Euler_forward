@@ -2,7 +2,7 @@ We are solving the second-order ordinary differential equation for a simple harm
 
 $$\ddot y+y=0$$
 
-using the forward Euler method.
+using the forward Euler method and the semi-implicit Euler method (symplectic Euler method).
 
 Forward Euler method applied to a conservative system like a simple harmonic oscillator will not show convergence because it is not a symplectic method.
 Fixing this is done via the Semi-implicit Euler method which is a canonical transformation (e.g. an symplectomorphism).
