@@ -19,4 +19,35 @@ where $\eta=\eta(q,p)$, $H$ is the Hamiltonian, $\lbrace,\rbrace$ being the Pois
 
 Forward Euler method can still be applied to non-conservative systems because there the change of energy is physical. 
 
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\begin{document}
+
+\section*{Euler Methods for \(\dot{x} = v, \; \dot{v} = -x\)}
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Explicit Euler} & \textbf{Semi-Implicit Euler} \\
+\hline
+\(
+\begin{aligned}
+x_{i+1} &= x_i + h v_i \\
+v_{i+1} &= v_i - h x_i
+\end{aligned}
+\)
+&
+\(
+\begin{aligned}
+v_{i+1} &= v_i - h x_i \\
+x_{i+1} &= x_i + h v_{i+1}
+\end{aligned}
+\)
+\\
+\hline
+\end{tabular}
+\end{center}
+
 
