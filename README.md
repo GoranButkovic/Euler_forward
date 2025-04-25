@@ -25,7 +25,7 @@ where $\eta=\eta(q,p)$, $H$ is the Hamiltonian, $\lbrace,\rbrace$ being the Pois
 
 | Method | Update Equations |
 |--------|------------------|
-| **Explicit Euler** | $x_{i+1} = x_i + h v_i$ <br> $v_{i+1} = v_i - h x_i$ |
-| **Semi-Implicit Euler** | $v_{i+1} = v_i - h x_i$ <br> $x_{i+1} = x_i + h v_{i+1}$ |
+| **Explicit Euler** | $y_{i+1} = y_i + h v_i$ <br> $v_{i+1} = v_i - h y_i$ |
+| **Semi-Implicit Euler** | $v_{i+1} = v_i - h y_i$ <br> $y_{i+1} = y_i + h v_{i+1}$ |
 
 </div>
