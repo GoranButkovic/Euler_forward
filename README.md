@@ -33,14 +33,5 @@ The **semi-implicit Euler method** preserves the phase space volume as required 
 </div>
 
 
-$v_{i+1} = v_i - h y_i$ <br> $y_{i+1} = y_i + h v_{i+1}$
-
-$p_{n+1} = p_n - h \frac{\partial H}{\partial q}(q_n)$ <br> $q_{n+1} = q_n + h \frac{\partial H}{\partial p}(p_{n+1})$
-
-
-J = [ ∂q'/∂q   ∂q'/∂p ] = [ 1 + h ∂²H/∂q∂p    h ∂²H/∂q∂p   ]
-    [ ∂p'/∂q   ∂p'/∂p ]   [ -h ∂²H/∂q∂p     1 - h ∂²H/∂q∂p ]
-
-$\det(J) = \left(1 + h^2 \frac{\partial^2 H}{\partial q \, \partial p}\right) \left(1-h \frac{\partial^2 H}{\partial q \, \partial p}\right)+h^2\left(\frac{\partial^2 H}{\partial q \, \partial p}\right)^2 = 1 - \left(h\frac{\partial^2 H}{\partial q \, \partial p}\right)^2 + h^2 \left(\frac{\partial^2 H}{\partial q \, \partial p}\right)^2 = 1$
 
 
