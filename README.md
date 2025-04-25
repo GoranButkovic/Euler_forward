@@ -1,3 +1,9 @@
+We are solving the ordinary differential equation for a simple harmonic oscillator 
+
+$$\frac{d^2y(t)}{dt^2}+x=0$$
+
+using the forward Euler method.
+
 Forward Euler method applied to a conservative system like a simple harmonic oscillator will not show convergence because it is not a symplectic method.
 Fixing this is done via the Semi-implicit Euler method which is a canonical transformation (e.g. an symplectomorphism).
 
