@@ -19,18 +19,4 @@ with $H$ being the Hamiltonian and $\lbrace,\rbrace$ being the Poisson brackets.
 
 Forward Euler method can still be applied to non-conservative systems because there the change of energy is physical. 
 
-
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "# Laplace Transform, visualized\n",
-    "\n",
-    "The goal of this is to visualize how the Laplace Transform works:\n",
-    "\n",
-    "$$\\mathscr{L}\\{f(t)\\}=F(s)$$\n",
-    "\n",
-    ]
-    }
+$\mathscr{L}\{f(t)\}=F(s)$
