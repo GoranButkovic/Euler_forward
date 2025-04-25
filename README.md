@@ -13,7 +13,7 @@ $${\dot {\eta }}=J\nabla _{\eta }H$$
 
 The semi-implicit Euler method is a canonical transformation, i.e. it obeys the invariance of the Poisson brackets and is governed by the Poisson bracket differential equation:
 
-$$\dot\eta=\lbrace\eta,H\rbrace$$
+$$\dot\eta=\lbrace\eta,H\rbrace=\mathcal {L}_{X_{\eta}}H$$
 
 with $H$ being the Hamiltonian and $\lbrace,\rbrace$ being the Poisson brackets.
 
