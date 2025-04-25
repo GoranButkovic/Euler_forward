@@ -17,6 +17,8 @@ $$\dot\eta=\lbrace\eta,H\rbrace=𝓛_{X_H} η$$
 
 where $\eta=\eta(q,p)$, $H$ is the Hamiltonian, $\lbrace,\rbrace$ being the Poisson brackets and $𝓛_{X_H}$ being the Lie derivative of the function $\eta$ along the Hamiltonian vector field $X_H$.
 
+The **semi-implicit Euler method** preserves the phase space volume as required by **Liouville's theorem**.
+
 **Forward Euler method** can still be applied to non-conservative systems because there the change of energy is physical. 
 
 **Euler methods comparison table:**
