@@ -38,6 +38,11 @@ The Hamilton's equations are:
 
 $${\displaystyle {\frac {\mathrm {d} {\boldsymbol {q}}}{\mathrm {d} t}}={\frac {\partial {\mathcal {H}}}{\partial {\boldsymbol {p}}}},\quad {\frac {\mathrm {d} {\boldsymbol {p}}}{\mathrm {d} t}}=-{\frac {\partial {\mathcal {H}}}{\partial {\boldsymbol {q}}}}}$$
 
+Takind the finite difference of the equations we get:
+
+$\dot p  =- \frac{\partial H}{\partial q} \approx \frac{p_{n+1}-p_n}{h}\longrightarrow p_{n+1} = p_n - h \frac{\partial H}{\partial q}(q_n) \\
+\dot q =  \frac{\partial H}{\partial p}(p_{n+1}) \approx \frac{q_{n+1}-q_n}{h}\longrightarrow q_{n+1} = q_n + h \frac{\partial H}{\partial p}(p_{n+1})$
+
 
 
 
