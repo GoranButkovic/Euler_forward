@@ -1,4 +1,4 @@
-%Matlab code for simple harmonic pendulum using forward Euler method
+%Matlab code for simple harmonic oscillator using forward Euler method
 %Showing also Hamiltonian vector flow
 
 h = 0.01;          % Step size
