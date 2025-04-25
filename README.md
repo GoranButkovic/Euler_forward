@@ -23,6 +23,6 @@ Forward Euler method can still be applied to non-conservative systems because th
 
 | Explicit Euler | Semi-Implicit (Symplectic) Euler |
 |----------------|----------------------------------|
-| \( x_{i+1} = x_i + h v_i \) <br> \( v_{i+1} = v_i - h x_i \) | \( v_{i+1} = v_i - h x_i \) <br> \( x_{i+1} = x_i + h v_{i+1} \) |
+|  x_{i+1} = x_i + h v_i  <br>  v_{i+1} = v_i - h x_i  |  v_{i+1} = v_i - h x_i  <br>  x_{i+1} = x_i + h v_{i+1}  |
 
 
