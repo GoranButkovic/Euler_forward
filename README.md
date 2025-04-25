@@ -19,10 +19,8 @@ where $\eta=\eta(q,p)$, $H$ is the Hamiltonian, $\lbrace,\rbrace$ being the Pois
 
 Forward Euler method can still be applied to non-conservative systems because there the change of energy is physical. 
 
-### Comparison Table: Explicit vs Semi-Implicit Euler
 
-| Explicit Euler | Semi-Implicit (Symplectic) Euler |
-|----------------|----------------------------------|
-|  x_{i+1} = x_i + h v_i  <br>  v_{i+1} = v_i - h x_i  |  v_{i+1} = v_i - h x_i  <br>  x_{i+1} = x_i + h v_{i+1}  |
-
-
+| Method | Update Equations |
+|--------|------------------|
+| **Explicit Euler** | $x_{i+1} = x_i + h v_i$ <br> $v_{i+1} = v_i - h x_i$ |
+| **Semi-Implicit Euler** | $v_{i+1} = v_i - h x_i$ <br> $x_{i+1} = x_i + h v_{i+1}$ |
