@@ -23,7 +23,6 @@ Forward Euler method can still be applied to non-conservative systems because th
 \usepackage{geometry}
 \geometry{margin=1in}
 
-\begin{document}
 
 \section*{Euler Methods for \(\dot{x} = v, \; \dot{v} = -x\)}
 
