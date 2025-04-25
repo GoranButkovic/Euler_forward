@@ -53,6 +53,7 @@ q_{n+1} = q_n + h \frac{\partial H}{\partial p}(p_{n+1})
 $$
 
 ```math
-\begin{bmatrix}X\\Y\end{bmatrix}
+\begin{bmatrix}\frac{\partial q'}{\partial q} & \frac{\partial q'}{\partial p} \\
+\frac{\partial p'}{\partial q} & \frac{\partial p'}{\partial p}\end{bmatrix}
 ```
 
