@@ -17,11 +17,15 @@ $$\dot\eta=\lbrace\eta,H\rbrace=𝓛_{X_H} η$$
 
 where $\eta=\eta(q,p)$, $H$ is the Hamiltonian, $\lbrace,\rbrace$ being the Poisson brackets and $𝓛_{X_H}$ being the Lie derivative of the function $\eta$ along the Hamiltonian vector field $X_H$.
 
-Forward Euler method can still be applied to non-conservative systems because there the change of energy is physical. 
+**Forward Euler method** can still be applied to non-conservative systems because there the change of energy is physical. 
 
 Table for comparison:
+
+<div align="center">
 
 | Method | Update Equations |
 |--------|------------------|
 | **Explicit Euler** | $x_{i+1} = x_i + h v_i$ <br> $v_{i+1} = v_i - h x_i$ |
 | **Semi-Implicit Euler** | $v_{i+1} = v_i - h x_i$ <br> $x_{i+1} = x_i + h v_{i+1}$ |
+
+</div>
