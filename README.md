@@ -1,4 +1,6 @@
-We are solving a second-order ordinary differential equation for a simple harmonic oscillator:
+This project compares the **forward Euler method** and the **semi-implicit Euler method** for solving a differential equation describing a conservative system. The goal is to show how one method preserves the symplectic structure, while the other one does not. 
+
+In the provided Matlab and Python files there are codes for solving a second-order ordinary differential equation for a simple harmonic oscillator:
 
 $$\ddot y+y=0$$
 
