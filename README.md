@@ -1,6 +1,6 @@
 This project compares two **numerical methods** for solving a **differential equation** governing a **conservative system**. The goal is to show how one method preserves the **symplectic structure**, while the other one does not. 
 
-In the provided Matlab and Python files there are codes for solving a second-order ordinary differential equation for a simple harmonic oscillator:
+In the provided MATLAB and Python files there are codes for solving a second-order ordinary differential equation for a simple harmonic oscillator:
 
 $$\ddot y+y=0$$
 
