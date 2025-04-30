@@ -11,7 +11,7 @@ Fixing this is done via the **semi-implicit Euler method** which is a **canonica
 
 **The symplectic condition:**
 
-$${\dot {\eta }}=J\nabla _{\eta }H$$
+$${\dot {\eta }}=J\nabla _{\eta }H.$$
 
 The **semi-implicit Euler method** is a canonical transformation, i.e. it obeys the **invariance of the Poisson brackets** and is governed by the **Poisson bracket differential equation:**
 
