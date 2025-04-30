@@ -9,7 +9,7 @@ using the **forward Euler method** and the **semi-implicit Euler method** (sympl
 **Forward Euler method** applied to a conservative system like a simple harmonic oscillator will not show convergence because it is not a symplectic method.
 Fixing this is done via the **semi-implicit Euler method** which is a **canonical transformation** (i.e. a symplectomorphism).
 
-**The symplectic condition** is:
+**The symplectic condition:**
 
 $${\dot {\eta }}=J\nabla _{\eta }H.$$
 
