@@ -40,7 +40,7 @@ The **Hamilton's equations** are:
 
 $${\displaystyle {\frac {\mathrm {d} {\boldsymbol {q}}}{\mathrm {d} t}}={\frac {\partial {\mathcal {H}}}{\partial {\boldsymbol {p}}}},\quad {\frac {\mathrm {d} {\boldsymbol {p}}}{\mathrm {d} t}}=-{\frac {\partial {\mathcal {H}}}{\partial {\boldsymbol {q}}}}}$$
 
-Takind the finite difference of each equation we get:
+Taking the finite difference of each equation we get:
 
 $$
 \dot p  = - \frac{\partial H}{\partial q} \approx \frac{p_{n+1} - p_n}{h}
