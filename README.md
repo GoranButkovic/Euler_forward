@@ -85,9 +85,9 @@ The **semi-implicit Euler method** is a **volume-preserving transformation** or 
 ------------------------------------------------------
 The other two MATLAB files show the classical central-force problem (Earth's orbit) solved with Euler forward and symplectic Euler method, governed, of course, by the following differential equation:
 
-$$\mathbf{F} = -\frac{GMm}{r^2} \hat{\mathbf{r}}$$
+$$\mathbf{F} = -\frac{GMm}{r^2} \hat{\mathbf{r}.}$$
 
-substituting Newton's second law $\mathbf{F} = m\mathbf{a}$ 
+Substituting Newton's second law $\mathbf{F} = m\mathbf{a}$ 
 
 we obtain the two differential equations governing the system: 
 
