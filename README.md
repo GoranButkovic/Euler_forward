@@ -27,6 +27,12 @@ Fixing this is done via the **semi-implicit Euler method** which is a **canonica
 
 $${\dot {\eta }}=J\nabla _{\eta }H.$$
 
+For matrices, we have that a symplectic matrix is the one that satisfies the following equation:
+
+$${\displaystyle M^{\text{T}}\Omega M=\Omega}$$
+
+where $${\displaystyle \Omega ={\begin{bmatrix}0&I_{n}\\-I_{n}&0\\\end{bmatrix}}.}$$
+
 The **semi-implicit Euler method** is a canonical transformation, i.e. it obeys the **invariance of the Poisson brackets** and is governed by the **Poisson bracket differential equation:**
 
 $$\dot\eta=\lbrace\eta,H\rbrace=𝓛_{X_H} η$$
