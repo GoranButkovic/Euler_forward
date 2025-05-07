@@ -7,7 +7,7 @@ $$\ddot y+y=0$$
 using the **forward Euler method** and the **semi-implicit Euler method** (symplectic Euler method).
 
 ------------------------------------------------------
-The other two MATLAB files show the classical central-force problem (Earth's orbit) solved with forward and symplectic Euler methods, governed of course by the following differential equation:
+The other two MATLAB files show the classical central-force problem (Earth's orbit) solved with Euler forward and symplectic Euler methods, governed of course by the following differential equation:
 
 $$\mathbf{F} = -\frac{GMm}{r^2} \hat{\mathbf{r}}$$
 
