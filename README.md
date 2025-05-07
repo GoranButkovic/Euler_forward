@@ -87,9 +87,7 @@ The other two MATLAB files show the classical central-force problem (Earth's orb
 
 $$\mathbf{F} = -\frac{GMm}{r^2} \hat{\mathbf{r}.}$$
 
-Substituting Newton's second law $\mathbf{F} = m\mathbf{a}$ 
-
-we obtain the two differential equations governing the system: 
+Substituting Newton's second law $\mathbf{F} = m\mathbf{a}$ we obtain the two differential equations governing the system: 
 
 $$\frac{d^2x}{dt^2} = -\frac{GM}{r^3}x, \space \frac{d^2y}{dt^2} = -\frac{GM}{r^3}y$$
 
