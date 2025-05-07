@@ -39,6 +39,7 @@ where
 ```
 
 
+
 The **semi-implicit Euler method** is a canonical transformation, i.e. it obeys the **invariance of the Poisson brackets** and is governed by the **Poisson bracket differential equation:**
 
 $$\dot\eta=\lbrace\eta,H\rbrace=𝓛_{X_H} η$$
