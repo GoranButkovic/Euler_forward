@@ -17,6 +17,8 @@ we obtain the two differential equations governing the system:
 
 $$\frac{d^2x}{dt^2} = -\frac{GM}{r^3}x, \space \frac{d^2y}{dt^2} = -\frac{GM}{r^3}y$$
 
+where r = \sqrt{x^2+y^2}.
+
 ------------------------------------------------------
 **Forward Euler method** applied to a conservative system like a simple harmonic oscillator will not show convergence because it is not a symplectic method.
 Fixing this is done via the **semi-implicit Euler method** which is a **canonical transformation** (i.e. a symplectomorphism).
