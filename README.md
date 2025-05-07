@@ -79,3 +79,20 @@ J = \begin{bmatrix}\frac{\partial q'}{\partial q} & \frac{\partial q'}{\partial 
 $$det(J) = 1$$
 
 The **semi-implicit Euler method** is a **volume-preserving transformation** or a **measure-preserving map** since its **Jacobian** is equal to unity.
+
+
+
+------------------------------------------------------
+The other two MATLAB files show the classical central-force problem (Earth's orbit) solved with Euler forward and symplectic Euler method, governed of course by the following differential equation:
+
+$$\mathbf{F} = -\frac{GMm}{r^2} \hat{\mathbf{r}}$$
+
+substituting Newton's second law $\mathbf{F} = m\mathbf{a}$ 
+
+we obtain the two differential equations governing the system: 
+
+$$\frac{d^2x}{dt^2} = -\frac{GM}{r^3}x, \space \frac{d^2y}{dt^2} = -\frac{GM}{r^3}y$$
+
+where $r = \sqrt{x^2+y^2}$.
+
+------------------------------------------------------
