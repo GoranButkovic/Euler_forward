@@ -29,7 +29,7 @@ $${\dot {\eta }}=J\nabla _{\eta }H.$$
 
 For matrices, we have that a symplectic matrix is the one that satisfies the following equation:
 ```math
-{\displaystyle M^{\text{T}}\Omega M=\Omega}
+{\displaystyle M^{\text{T}}\Omega M=\Omega,}
 ```
 
 
